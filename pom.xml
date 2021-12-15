@@ -406,7 +406,7 @@
 			<dependency>
 				<groupId>org.codehaus.jackson</groupId>
 				<artifactId>jackson-core-asl</artifactId>
-				<version>1.9.13</version>
+				<version>1.9.14-MULE-002</version>
 			</dependency>
 			<dependency>
 				<groupId>org.codehaus.jackson</groupId>
@@ -614,7 +614,7 @@
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>buildnumber-maven-plugin</artifactId>
-					<version>1.4</version>
+					<version>3.0.0</version>
 					<configuration>
 						<buildNumberPropertyName>revisionNumber</buildNumberPropertyName>
 						<getRevisionOnlyOnce>true</getRevisionOnlyOnce>
@@ -1114,17 +1114,17 @@
 			 version of Hibernate Search must be compatible with the version of Hibernate and Hibernate must
 			 be compatible with our version of Spring. -->
 		<springVersion>5.2.14.RELEASE</springVersion>
-		<hibernateVersion>5.6.1.Final</hibernateVersion>
+		<hibernateVersion>5.6.2.Final</hibernateVersion>
 		<hibernateSearchVersion>5.11.10.Final</hibernateSearchVersion>
 		<luceneVersion>5.5.5</luceneVersion>
 		<aspectjVersion>1.9.7</aspectjVersion>
 		<jacksonVersion>2.13.0</jacksonVersion>
-		<junitVersion>5.8.1</junitVersion>
+		<junitVersion>5.8.2</junitVersion>
 		<mockitoVersion>3.12.4</mockitoVersion>
 		<hamcrestVersion>2.2</hamcrestVersion>
 
 		<slf4jVersion>1.7.32</slf4jVersion>
-		<log4jVersion>2.14.1</log4jVersion>
+		<log4jVersion>2.16.0</log4jVersion>
 
 		<customArgLineForTesting />
 
